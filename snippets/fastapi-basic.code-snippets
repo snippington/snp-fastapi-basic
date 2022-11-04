@@ -7,6 +7,22 @@
         ],
         "description": "Import FastAPI."
     },
+    "FastAPI Import Union": {
+        "scope": "python",
+        "prefix": "fa: import-union",
+        "body": [
+            "from typing import Union"
+        ],
+        "description": "Import Union."
+    },
+    "FastAPI Import Base Model": {
+        "scope": "python",
+        "prefix": "fa: import-base-model",
+        "body": [
+            "from pydantic import BaseModel"
+        ],
+        "description": "Import Base Model."
+    },
     "FastAPI Initialize": {
         "scope": "python",
         "prefix": "fa: init",
