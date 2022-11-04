@@ -7,3 +7,5 @@ Visual Studio Code extension for FastAPI code snippets.
 | ------ | ------------ |
 | `fa: import` | Import FastAPI |
 | `fa: init` | Initialize App |
+| `fa: hello` | Hello World endpoint |
+| `fa: hello-async` | Hello World endpoint async |
