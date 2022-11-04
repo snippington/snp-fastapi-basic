@@ -1,0 +1,18 @@
+{
+    "FastAPI Import": {
+        "scope": "python",
+        "prefix": "fa: import",
+        "body": [
+            "from fastapi import FastAPI"
+        ],
+        "description": "Import FastAPI."
+    },
+    "FastAPI Initialize": {
+        "scope": "python",
+        "prefix": "fa: init",
+        "body": [
+            "app = FastAPI()"
+        ],
+        "description": "Initialize FastAPI App."
+    }
+}
