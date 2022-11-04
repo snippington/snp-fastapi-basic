@@ -14,5 +14,29 @@
             "app = FastAPI()"
         ],
         "description": "Initialize FastAPI App."
+    },
+    "FastAPI Hello": {
+        "scope": "python",
+        "prefix": "fa: hello",
+		"body": [
+			"#app is your FastAPI app",
+			"#app = FastAPI()\n",
+			"@app.get(\"/\")",
+			"def read_root():",
+			"\treturn {\"Hello\": \"World\"}"
+		],
+        "description": "FastAPI Hello World Endpoint."
+    },
+    "FastAPI Hello Async": {
+        "scope": "python",
+        "prefix": "fa: hello-async",
+		"body": [
+			"#app is your FastAPI app",
+			"#app = FastAPI()\n",
+			"@app.get(\"/\")",
+			"async def read_root():",
+			"\treturn {\"Hello\": \"World\"}"
+		],
+        "description": "FastAPI Hello World Endpoint async."
     }
 }
