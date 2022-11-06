@@ -91,5 +91,16 @@
 			"\tfriends: list[int] = []"
 		],
         "description": "FastAPI model pydantic."
+    },
+    "FastAPI Endpoint with Path Param": {
+        "scope": "python",
+        "prefix": "fa: endpoint-path-param",
+		"body": [
+			"@app.get(\"/items/{item_id}\")",
+			"async def read_item(item_id):",
+			"\treturn {\"item_id\": item_id}",
+			""
+		],
+        "description": "FastAPI Endpoint with Path Param."
     }
 }
