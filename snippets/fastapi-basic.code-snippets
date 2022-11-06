@@ -23,6 +23,14 @@
         ],
         "description": "Import Base Model."
     },
+    "FastAPI Import Enum": {
+        "scope": "python",
+        "prefix": "fa: import-enum",
+        "body": [
+            "from enum import Enum"
+        ],
+        "description": "Import Enum."
+    },
     "FastAPI Initialize": {
         "scope": "python",
         "prefix": "fa: init",
