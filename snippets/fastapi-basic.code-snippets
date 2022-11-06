@@ -71,5 +71,25 @@
 			"\treturn {\"Hello\": \"World\"}"
 		],
         "description": "FastAPI Hello World Endpoint async."
+    },
+    "FastAPI Optional Parameter": {
+        "scope": "python",
+        "prefix": "fa: optional-param",
+		"body": [
+			"name: Optional[str] = None"
+		],
+        "description": "FastAPI Hello World Endpoint async."
+    },
+    "FastAPI Model Pydantic": {
+        "scope": "python",
+        "prefix": "fa: model-pydantic",
+		"body": [
+			"class User(BaseModel):",
+			"\tid: int",
+			"\tname = \"John Doe\"",
+			"\tsignup_ts: datetime | None = None",
+			"\tfriends: list[int] = []"
+		],
+        "description": "FastAPI model pydantic."
     }
 }
