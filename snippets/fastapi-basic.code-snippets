@@ -100,6 +100,17 @@
 		],
         "description": "FastAPI model pydantic."
     },
+    "FastAPI Model Enum": {
+        "scope": "python",
+        "prefix": "fa: model-enum",
+		"body": [
+			"class ModelName(str, Enum):",
+			"\talexnet = \"alexnet\"",
+			"\tresnet = \"resnet\"",
+			"\tlenet = \"lenet\""
+		],
+        "description": "FastAPI model Enum."
+    },
     "FastAPI Endpoint with Path Param": {
         "scope": "python",
         "prefix": "fa: endpoint-path-param",
